@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fad400;
+  font-family: sans-serif;
+}
+
+.header .pakemon {
+  margin-top: 30px;
+  margin-left: 350px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 15px 50px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-left: 30px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  width: 300px;
+  height: 370px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.card-img {
+  border-bottom: 2px solid #000;
+  padding: 30px 60px 40px 60px;
+}
+
+.card-text,
+.card-title {
+  padding-top: 15px;
+}
+
+.card-footer {
+  padding-top: 10px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
